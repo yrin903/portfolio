@@ -1,0 +1,84 @@
+/* sub3_2 콘텐츠 */
+.visual img{width: 100%; height: 200px; object-fit: cover; object-position: center;}
+.visual strong{position: absolute; display: block; left: 0; top: 80px; width: 100%; color: #fff; text-align: center; font-size: 2rem; text-shadow: 2px 2px 5px #666; font-weight: 500;}
+
+.sub_nav{width: 90%; border: 1px solid #ccc; border-radius: 50px; margin: 30px auto 0;}
+.sub_nav ul{display: flex; width: 100%; margin: 0 auto;}
+.sub_nav ul li{width: 33.33%; text-align: center; box-sizing: border-box;}
+.sub_nav ul li a{ border-radius: 30px; display: block; font-size: 1.2rem; font-weight: 600; padding: 15px 0; margin: 7px;}
+.sub_nav ul li a.current{background: #ff1a00; color: #fff;}
+
+
+#content{margin-top: 50px;}
+#content .title_area{width: 100%; margin: 0 auto;}
+#content .title_area h2{font-size: 3rem; font-weight: 700; text-align: center; margin-bottom: 20px; position: relative;}
+#content .title_area h2::after{content: ''; position: absolute;
+    left: 50%; top: 120px; transform: translateX(-50%);
+    display: block; width: 2px; height: 50px; background: #ff1a00;}
+#content .title_area p{font-size: 1.2rem; text-align: center; font-weight: 500; color: #ff1a00; margin-bottom: 120px;}
+
+
+
+#content .content_area .tab_menu{width: 100%; margin: 0 auto; display: flex; justify-content: center; font-size: 1.5rem; font-weight: 500;}
+#content .tab_menu .tab{
+    text-align: center; color: #333; background: #f6f6f6; 
+    width: 100px; padding: 10px; margin: 20px;
+    text-align: center; font-size: 1rem; font-weight: 500;
+    border-radius: 50px; border: 1px solid #f6f6f6;
+    transition: all .5s ease-out;
+    text-decoration: none;}
+#content .tab_menu a.current{background: #FF1A00; color: #fff;}
+#content .content_area{position: relative; margin-bottom: 50px;}
+
+#content .top{width: 100%; position: relative; margin-bottom: 150px;}
+#content .top img{width: 90%; margin: 0 auto 20px; border-radius: 40px 0 40px 0; display: block; box-shadow: 0 8px 16px rgba(0,0,0,0.25);}
+
+#content .top .info {border: 1px solid #ff190048; width: 80%; margin: 0 auto; background: rgba(254, 248, 248, 0.85); border-radius: 10px; box-sizing: border-box; box-shadow: 0 8px 16px rgba(0,0,0,0.25); padding: 30px;}
+#content .top .info .material-symbols-outlined{
+    font-size: 30px;
+    float: left;
+    color: var(--font-color-point2);}                
+#content .top .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    gap: 8px;
+}
+#content .bottom{background: #fff8eb; padding-top: 100px; padding-bottom: 20px;}
+#content .bottom1 dl{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#content .bottom1 dl dt{font-size: 1.6rem; font-weight: 600;}
+#content .bottom1 dl dd{
+    width: 90%;
+    font-size: 1rem; 
+    font-weight: 400; 
+    margin: 50px auto;}
+#content .bottom img{width: 80%; border-radius: 10px; margin-top: 30px; box-shadow: 0 8px 16px rgba(0,0,0,0.25);}
+.swiper-slide{text-align: center;}
+#c_txt{ margin: 50px 15px; text-align: center;}
+#c_txt dt{ font-size: 1.4rem; font-weight: 700; line-height: 1.5rem; margin-bottom: 20px;}
+#c_txt dt span{ color: #ff1a00; font-size: 1rem; margin-top: 10px;}
+#c_txt dd{  text-align: justify; line-height: 1.5rem; text-align: center;}
+#c_txt dd span{ display: inline-block;  padding: 5px 0 10px; line-height: 1.3rem; margin-bottom: 20px;}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: -30px;
+}
+.swiper-pagination-bullet{background: #ffd7d7; opacity: .4;}
+.swiper-pagination-bullet-active{
+    background: #ff1a00;
+    opacity: .7;
+}
+#content .wrap2{text-align: center; width: 100%; margin: 0 auto;}
+#content .wrap2 .c_text{margin: 50px auto 0; width: 90%;}
+#content .wrap2 .c_text strong{font-size: 24px; font-weight: 700; color: #333; display: block; text-align: center;}
+#content .wrap2 .c_text p{font-size: 1rem; color: #333; margin: 50px 0;}
+#content .wrap2 .c_text hr{border: none; height: 1px; background-color: #ccc; width: 50%; margin: 20px auto;}
+#content .wrap2 .c_img{display: flex; width: 90% ; margin: 0 auto ; gap: 40px; padding: 2% 0; justify-content: center; align-items: center; flex-wrap: wrap;}
+#content .wrap2 .c_img img{display: block;}

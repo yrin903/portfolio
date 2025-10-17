@@ -1,0 +1,51 @@
+/* sub2_1 콘텐츠 */
+.visual img{width: 100%; height: 200px; object-fit: cover; object-position: center;}
+.visual strong{position: absolute; display: block; left: 0; top: 80px; width: 100%; color: #fff; text-align: center; font-size: 2rem; text-shadow: 2px 2px 5px #666; font-weight: 500;}
+
+.sub_nav{width: 90%; border: 1px solid #ccc; border-radius: 50px; margin: 30px auto 0;}
+.sub_nav ul{display: flex; width: 100%; margin: 0 auto;}
+.sub_nav ul li{width: 25%; text-align: center; box-sizing: border-box;}
+.sub_nav ul li a{ border-radius: 30px; display: block; font-size: 1.2rem; font-weight: 600; padding: 15px 0; margin: 7px;}
+.sub_nav ul li a.current{background: #ff1a00; color: #fff;}
+
+
+#content{margin-top: 50px;}
+#content .title_area{width: 100%; margin: 0 auto;}
+#content .title_area h2{font-size: 3rem; font-weight: 700; text-align: center; margin-bottom: 20px; position: relative;}
+#content .title_area h2::after{content: ''; position: absolute;
+    left: 50%; top: 120px; transform: translateX(-50%);
+    display: block; width: 2px; height: 50px; background: #ff1a00;}
+#content .title_area p{font-size: 1.2rem; text-align: center; font-weight: 500; color: #ff1a00; margin-bottom: 150px;}
+
+
+#content .content_area{}
+#content .content_area .tab_menu{width: 100%; margin: 0 auto; display: flex; justify-content: center; font-size: 1.5rem; font-weight: 500;}
+#content .tab_menu .tab{
+    text-align: center; color: #333; background: #f6f6f6; 
+    width: 50px; padding: 10px; margin: 10px;
+    text-align: center; font-size: 1rem; font-weight: 500;
+    border-radius: 50px; border: 1px solid #f6f6f6;
+    transition: all .5s ease-out;
+    text-decoration: none;}
+#content .tab_menu a.current{background: #FF1A00; color: #fff;}
+
+
+
+#content .content_area .section_box{ height: auto; overflow: hidden;}
+
+#content .content_area .section_box .contlist{}
+#content .content_area .section_box h3 span{ color: #e01b05;}
+#content .content_area .way{margin-top: 40px;}
+#content .content_area .map_box #map1, #map2, #map3{ width: 85%;
+    height: 400px; margin: 50px auto; border-radius: 20px;
+    border: 1px solid #ff1a00;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);;}
+#content .content_area .map_box h3{font-size: 2.81rem;
+    text-align: center; margin-bottom: 30px;}
+#content .content_area .map_box .text_box{width: 80%; margin: 0 auto; margin-bottom: 100px;}
+#content .content_area .map_box .text_box p{
+    width: 100%; margin: 0 auto; font-size: 1.25rem;
+    font-weight: 600; line-height: 4rem;
+    border-bottom: 2px solid #ccc;}
+/* #content .content_area .map_box .text_box strong{color: #ff1a00; display: block;} */
+#content .content_area .map_box .text_box p i{color: #ff1a00; font-size: 2rem; padding-right: 10px;}

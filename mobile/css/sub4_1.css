@@ -1,0 +1,77 @@
+/* sub3_2 콘텐츠 */
+.visual img{width: 100%; height: 200px; object-fit: cover; object-position: center;}
+.visual strong{position: absolute; display: block; left: 0; top: 80px; width: 100%; color: #fff; text-align: center; font-size: 2rem; text-shadow: 2px 2px 5px #666; font-weight: 500;}
+
+.sub_nav{width: 90%; border: 1px solid #ccc; border-radius: 50px; margin: 30px auto 0;}
+.sub_nav ul{display: flex; width: 100%; margin: 0 auto;}
+.sub_nav ul li{width: 33.33%; text-align: center; box-sizing: border-box;}
+.sub_nav ul li a{ border-radius: 30px; display: block; font-size: 1.2rem; font-weight: 600; padding: 15px 0; margin: 7px;}
+.sub_nav ul li a.current{background: #ff1a00; color: #fff;}
+
+
+#content{margin-top: 50px;}
+#content .title_area{width: 100%; margin: 0 auto;}
+#content .title_area h2{font-size: 3rem; font-weight: 700; text-align: center; margin-bottom: 20px; position: relative;}
+#content .title_area h2::after{content: ''; position: absolute;
+    left: 50%; top: 120px; transform: translateX(-50%);
+    display: block; width: 2px; height: 50px; background: #ff1a00;}
+#content .title_area p{font-size: 1.2rem; text-align: center; font-weight: 500; color: #ff1a00; margin-bottom: 150px;}
+
+
+
+#content .content_area .tab_menu{width: 100%; margin: 0 auto; display: flex; justify-content: center; font-size: 1.5rem; font-weight: 500;}
+#content .tab_menu .tab{
+    text-align: center; color: #333; background: #f6f6f6; 
+    width: 100px; padding: 10px; margin: 20px;
+    text-align: center; font-size: 1rem; font-weight: 500;
+    border-radius: 50px; border: 1px solid #f6f6f6;
+    transition: all .5s ease-out;
+    text-decoration: none;}
+#content .tab_menu a.current{background: #FF1A00; color: #fff;}
+#content .content_area{margin-bottom: 100px; position: relative;}
+
+#content .contact{padding: 50px 0; justify-content: center;}
+
+/* #content .contact img{width: 700px; height: 960px;} */
+#content .content_area .contact>img{width: 80%; display: block; margin: 0 auto;}
+#content .email_box{width: 90%; margin: 0 auto; padding: 20px;
+    box-sizing: border-box; border-radius: 20px;}
+#content .email_box div{padding: 20px;}
+#content .email_box label{font-size: 1.3rem;
+    font-weight: 700; margin-bottom: 15px; display: block;
+    }
+#content .email_box input,
+#content .email_box select, 
+#content .email_box textarea{
+    padding: 15px 5%; width: 90%;
+    font-size: 1.5rem; border: 0; background: #fff;
+    color: #333;
+    border-radius: 15px; outline: none;
+    box-shadow: 1px 1px 6px 1px rgba(249, 8, 8, 0.174);
+    transition: all .5s ease-out;
+} 
+#content .email_box input:focus,
+#content .email_box textarea:focus{
+    box-shadow: 1px 1px 10px 1px rgba(255, 106, 106, 0.456);
+    transform: scale(1.03);
+}
+#content .email_box textarea{height: 100px;}
+#content .email_box button{
+    padding: 15px 50px; background: #ff1a00;
+    color: #fff; font-size: 1.2rem; box-shadow: 1px 1px 10px 1px rgba(0,0,0,.2);
+    border-radius: 15px; border: 0;
+    margin: 30px auto; display: block; cursor: pointer;
+}
+/* #content .email_box button:hover{background: #ff1a00;
+    transition: all .3s ease-out;} */
+
+#content .email_info{width: 70%; margin: 20px auto 50px; padding: 40px; border-radius: 30px;
+    border: 1px solid #e5dada;}
+#content .email_info p{margin: 50px 50px; text-align: center;
+    font-weight: 800;}
+#content .email_info dl{margin-bottom: 30px;}
+#content .email_info dt{font-size: 1.25rem; font-weight: 600;
+    margin-bottom: 15px; color: #ff1a00;}
+#content .email_info dd{line-height: 2.2rem;
+    font-size: 1rem;}
+
