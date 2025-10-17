@@ -1,0 +1,15 @@
+/* index css */
+
+/* 비주얼 영역 */
+.visual{margin-bottom: 50px;}
+.visual .swiper1{width: 100%; height: auto;} /*스와이퍼의 높이값이 유동이면 auto 값을, 고정이면 px값을 주어야한다.*/
+.visual .swiper1 .swiper-slide{ text-align: center;}
+.visual .swiper1 .swiper-slide img{width: 100%;}
+.visual .swiper1 .swiper-slide p{position: absolute; font-size: 30px; color: #fff; top: 45%; left: 0; width: 100%; text-align: center;}
+
+
+
+/* 스와이퍼 공통 */
+.swiper-button-next, .swiper-button-prev{color: #ff1a00;}
+.swiper-pagination-bullet{background: #fff; opacity: .4;}
+.swiper-pagination-bullet-active{background: #ff1a00; opacity: 1;}

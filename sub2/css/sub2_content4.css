@@ -1,0 +1,41 @@
+/* 오시는길 내용 콘텐츠 */
+#content .content_area{
+    width: 1400px; margin: 0 auto;
+    padding-bottom: 150px;}
+#content .map_box{margin-top: 150px;}
+#content .tab_menu{
+    width: 800px; margin: 0 auto; 
+    display: flex; justify-content: space-between;
+    font-size: 1.5rem; font-weight: 500;}
+#content .tab_menu .tab{
+    text-align: center; color: #333; background: #f6f6f6; 
+    width: 200px; padding: 10px;
+    border-radius: 30px;
+    font-size: 1rem; font-weight: 500;
+    transition: all .5s ease-out;
+    text-decoration: none;
+    border: 1px solid #fff;}
+#content .tab_menu .tab:hover{border: 1px solid #ff1a00;}
+#content .tab_menu a.current{background: #FF1A00; color: #fff;}
+
+#content .content_area .section_box{
+    height: auto; overflow: hidden;
+    margin-top: 100px;}
+
+#content .content_area .section_box .contlist{}
+#content .content_area .section_box h3 span{
+    color: #e01b05;}
+#content .content_area .way{margin-top: 100px;}
+#content .content_area .map_box #map1, #map2, #map3{
+    height: 600px; margin-bottom: 50px; border-radius: 20px;
+    border: 1px solid #ff1a00;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);;}
+#content .content_area .map_box h3{font-size: 2.81rem;
+    text-align: center; margin-bottom: 100px;}
+#content .content_area .map_box .text_box{
+    text-align: center; }
+#content .content_area .map_box .text_box p{
+    width: 1030px; margin: 0 auto; font-size: 1.25rem;
+    font-weight: 600; line-height: 4rem;
+    border-bottom: 2px solid #ccc;}
+#content .content_area .map_box .text_box strong{color: #ff1a00;}

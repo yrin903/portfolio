@@ -1,0 +1,203 @@
+/* 연도별 슬라이드 */
+#content .slideMenu{background: #fff; width: 100%;}
+#content .slideMenu ul{width: 1400px;
+    margin: 0 auto; display: flex;
+    justify-content: center; gap: 30px;
+    border-bottom: 1px solid #ccc;}
+
+#content .slideMenu .history_menu.fix{
+    position: fixed; left: 0; top: 0;
+    width: 100%; background: #fff;
+    z-index: 9999; padding-top: 20px;
+    gap: 15px;
+}
+#content .slideMenu ul li{
+    font-size: 1.5rem;
+    margin-bottom: 20px; color: #333;
+    transition: all 0.3s ease-out;}
+#content .slideMenu ul li a.spy{
+    background:#fff; color: #fff; font-weight: 500;
+    border-radius: 20px; background: #ff1a00;}
+#content .slideMenu ul li a{
+    padding: 10px 20px; font-size: 1em;
+    text-align: center;
+    transition: all .5s ease-out;
+    background:#fff; border: 1px solid #ff1A00;
+    color: #ff1A00; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;}
+#content .slideMenu ul li a:hover{
+    border-radius: 10px; color: #fff; 
+    background: #ff1A00;}
+    
+
+/* 연혁 내용 콘텐츠 */
+#content .content_area{
+    width: 1400px; margin: 0 auto;
+    padding-bottom: 150px;}
+
+#content .content_area .content_inner{position: relative; width: 100%; 
+    margin: 0 auto; overflow: hidden;}
+
+
+#content .content_area .content_inner .con_img{
+    background: url(../images/content2/sub2.jpg);
+    background-position: center; background-repeat: no-repeat;
+    background-size: cover; height: 400px; margin-top: 50px;
+    border-radius: 40px; position: relative;}
+
+#content .content_area .content_inner::before{
+    content: ''; display: block; width: 4px; height: 100%;
+    position: absolute; left: 50%; top: 100px; background: #ccc;}
+#content .content_area .content_inner ul{margin-top: 150px;}
+#content .content_area .content_inner ul li{margin-bottom: 150px;
+    overflow: hidden; display: flex; justify-content: space-between;}
+/* 스크롤 스파이 */
+#content .content_area .year_menu ul li a.spy{
+        background: #ff1a00; color: #fff;
+    }
+#content .content_area .content_inner ul li img{
+    width: 400px; height: 250px;
+    display: block; margin: 30px 100px 20px 100px;
+    border-radius: 30px; box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease; } 
+#content .content_area .content_inner ul li img:hover{
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+#content .content_area .content_inner ul li.right{
+    flex-direction: row-reverse; text-align: right;}
+#content .content_area .content_inner ul li.left{
+    flex-direction: row; text-align: left;}
+#content .content_area .content_inner ul li dl{width: 550px;}
+#content .content_area .content_inner ul li dl dt{
+    text-align: center; font-size: 2rem; font-weight: 700;
+    margin-bottom: 50px; position: relative;}
+#content .content_area .content_inner ul li.right dl dt::before{
+    content: ''; display: block; position: absolute;
+    width: 20px; height: 20px; border-radius: 50%;
+    top: 10px; right: -162px; background-color: #F29B20;}
+#content .content_area .content_inner ul li.right dl dt::after{
+    content: ''; display: block; width: 150px; height: 2px;
+    border-bottom: 4px dotted #ccc; position: absolute;
+    top: 15px; right: 0;}
+#content .content_area .content_inner ul li dd{
+    line-height: 2rem; font-weight: 500;}
+#content .content_area .content_inner ul li dd span{
+    font-weight: bold; color: #F29B20;}
+
+#content .content_area .content_inner ul li.left dl dt::before{
+    content: ''; display: block; position: absolute;
+    width: 20px; height: 20px; border-radius: 50%;
+    top: 15px; left: -158px; background-color: #F29B20;}
+#content .content_area .content_inner ul li.left dl dt::after{
+    content: ''; display: block; width: 150px; height: 2px;
+    border-bottom: 4px dotted #ccc; position: absolute;
+    top: 22px; left: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #content .content_area .content_inner::before{
+    content: ''; display: block; position: absolute;
+    left: 50%; top: 150px; transform: translateX(-50%);
+    width: 1px; height: 100%; background: #050D1B;
+    z-index: -1;} */
+
+    /* 여기서부터 */
+/* #content .content_area .content_inner .history_main{
+    position: relative; width: 100%; margin: 0 auto;
+    padding: 60px 0; list-style: none;} 
+
+#content .content_area .content_inner .history_main::before{
+    content: ''; position: absolute; top: 0; bottom: 0;
+    left: 50%; width: 2px; background-color: #333; transform: translateX(-50%);}
+#content .content_area .content_inner .history_main li{ */
+    /* position: relative; width: 50%; padding: 20px 0 20px 20px;
+    box-sizing: border-box; text-align: left; */
+    /* margin-bottom: 150px; overflow: hidden;
+    display: flex; justify-content: space-between;
+} */
+/* #content .content_area .content_inner .history_main dl{width: 550px;}
+
+#content .content_area .content_inner .history_main li::after{
+    content: ''; position: absolute; top: 30px; width: 14px;
+    height: 14px; background-color: #F29B20; border-radius: 50%;
+    z-index: 10;
+}
+
+#content .content_area .content_inner .history_main li:nth-child(odd){
+    left: 0; text-align: right;}
+
+#content .content_area .content_inner .history_main li:nth-child(even){
+    left: 50%; text-align: left;}
+#content .content_area .content_inner .history_main li:nth-child(odd)::after{
+    right: -7px;}
+#content .content_area .content_inner .history_main li:nth-child(even)::after{
+    left: -7px;}
+
+
+#content .content_area .content_inner .history_main dt{
+   text-align: center; font-size: 2rem; font-weight: 700;
+   margin-bottom: 50px; position: relative;}
+#content .content_area .content_inner .history_main li:nth-child(even) dt::after{
+    content: ''; display: block; width: 200px; height: 2px;
+    border-bottom: 4px dotted #ccc; position: absolute;
+    left: 100px; top: 32px;}
+#content .content_area .content_inner .history_main li:nth-child(odd) dt::after{
+    content: ''; display: block; width: 200px; height: 2px;
+    border-bottom: 4px dotted #ccc; position: absolute;
+    right: 90px; top: 32px;}
+
+#content .content_area .content_inner .history_main dd{
+    /* margin: 10px 0; font-size: 1.1rem; 
+    font-weight: 500; position: relative;
+    color: #333; margin-bottom: 10px;
+    line-height: 3rem; */
+    /* line-height: 2rem; font-weight: 500;
+}
+ #content .content_area .content_inner .history_main dd span{
+    font-weight: bold; font-size: 15px; color: #F29B20;
+    margin-right: 6px;} */ 

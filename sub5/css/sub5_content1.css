@@ -1,0 +1,6 @@
+/* 문의하기 내용 콘텐츠 */
+
+#content .content_area{
+    width: 1400px; margin: 0 auto;
+    padding-bottom: 150px;
+}

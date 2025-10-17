@@ -1,0 +1,51 @@
+/* 문의하기 내용 콘텐츠 */
+
+#content .content_area{
+    width: 1400px; margin: 0 auto;
+    padding-bottom: 150px;
+}
+#content .contact{padding: 50px 0; display: flex;
+    justify-content: center;}
+
+#content .contact img{width: 700px; height: 960px;}
+#content .email_box{width: 600px; margin: 0 auto;
+    border: 1px solid #ccc; padding: 20px;
+    box-sizing: border-box; border-radius: 20px;}
+#content .email_box div{padding: 20px;}
+#content .email_box label{font-size: 1.3rem;
+    font-weight: 700; margin-bottom: 15px; display: block;
+    }
+#content .email_box input,
+#content .email_box select, 
+#content .email_box textarea{
+    padding: 15px 5%; width: 90%;
+    font-size: 1.5rem; border: 0; background: #fff;
+    color: #333;
+    border-radius: 15px; outline: none;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1);
+    transition: all .5s ease-out;
+} 
+#content .email_box input:focus,
+#content .email_box textarea:focus{
+    box-shadow: 1px 1px 10px 1px rgba(255, 106, 106, 0.456);
+    transform: scale(1.03);
+}
+#content .email_box textarea{height: 100px;}
+#content .email_box button{
+    padding: 15px 50px; background:lightcoral;
+    color: #fff; font-size: 1.2rem;
+    border-radius: 15px; border: 0;
+    margin: 30px auto; display: block; cursor: pointer;
+}
+#content .email_box button:hover{background: #ff1a00;
+    transition: all .3s ease-out;}
+
+#content .email_info{margin-top: 50px; padding: 50px;
+    border: 1px solid #e5dada;}
+#content .email_info p{margin: 50px 50px; text-align: center;
+    font-weight: 800;}
+#content .email_info dl{margin-bottom: 30px;}
+#content .email_info dt{font-size: 1.25rem; font-weight: 600;
+    margin-bottom: 15px; color: #ff1a00;}
+#content .email_info dd{line-height: 2.2rem;
+    font-size: 1rem;}

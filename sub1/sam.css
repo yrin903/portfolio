@@ -1,0 +1,41 @@
+/* base */
+*{ padding: 0; margin: 0; }
+ul{ list-style: none; }
+a{ text-decoration: none;display: block; }
+
+h1{text-align: center; margin: 50px;}
+.product{width:1200px; margin: 50px auto; border: 2px solid #ccc;}
+.product h3{font-size: 50px; text-align: center; margin: 40px 0;}
+
+.product .serch_box{width:550px; margin: 20px auto 50px;}
+.product .serch_box label{font-size: 22px;}
+.product .serch_box input{font-size: 20px;padding:5px 10px; ; border: 0; border-bottom: 1px solid #999;}
+.product .serch_box button{width: 100px; padding: 5px 0; font-size: 18px; border: 0; background: orange; color: #fff; font-weight: bold; border-radius: 10px;}
+.product .serch_box .btn_all{background: green; box-sizing: border-box;}
+
+.product ul{overflow: hidden;}
+.product li{width: 25%; height: 450px; float: left; text-align: center;}
+.product li img{width: 200px;}
+.product li a{color: #333;}
+.product li dl{width: 200px; margin: 15px auto;} 
+.product li dt{font-size:18px ; font-weight: bold; margin-bottom: 10px;}
+.product li dd{line-height: 1.5em;}
+
+.product .modal_box{position: fixed; width: 100%; height: 100%;
+  left:0; top:0; background: rgba(0,0,0,.8); display: none; z-index: 110;}
+.product .modal_box .popup{width:660px; height: 800px;
+    position: absolute; left: 50%; top:50%; transform: translate(-50%, -50%);
+    background: #fff; text-align: center;}
+.product .modal_box .popup img{width:600px; margin: 30px;}
+.product .modal_box .popup p{font-weight: bold; font-size: 1.2em; margin-bottom: 10px;}
+.product .modal_box .popup .close_pop{position: absolute; bottom: 30px; left:0;
+    text-align: center;width: 100%; color: #333; font-size: 1.5em;}
+
+
+
+
+
+
+
+
+

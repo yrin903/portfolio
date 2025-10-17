@@ -1,0 +1,151 @@
+/* 문의하기 내용 콘텐츠 */
+#content .content_area{
+    width: 100%; margin: 0 auto;
+}
+#content .content_area .hidden{
+    display: block; color: #fff;
+    position: absolute; left: -1000%;
+    width: 1px; height: 1px;
+}
+
+#content .content_area .Education{
+    width: 1400px; margin: 0 auto;
+    padding-bottom: 150px;
+}
+#content .content_area .intro{
+    margin: 0 auto; font-size: 1.5rem;
+    font-weight: 400; text-align: center;
+    position: relative; 
+    overflow: hidden; padding-bottom: 100px;
+}
+#content .content_area .intro strong{font-size: 1.8rem;}
+
+#content .content_area .in_1{
+    display: flex; flex-direction: row-reverse;
+    align-items: center; gap: 100px;
+    margin-bottom: 150px;
+}
+#content .content_area .intro .fa-solid{
+    font-size: 2rem; color: #efefef;
+    padding: 0 5px;
+    position: relative;
+}
+#content .content_area .in_1 img{
+    border-radius: 10px 100px 10px 10px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.3);
+}
+#content .content_area .in_1 dt{
+    font-size: 3rem; font-weight: 500;
+    width: 700px;
+}
+
+#content .content_area .in_1 dd{
+    font-size: 1.3rem; font-weight: 400;
+    line-height: 2.5rem; padding-top: 30px;
+}
+
+
+
+#content .content_area .in_2{
+    display: flex;
+    align-items: center; gap: 100px;
+}
+#content .content_area .in_2 img{
+    border-radius: 10px 100px 10px 10px;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.3);
+}
+#content .content_area .in_2 dt{
+    font-size: 3rem; font-weight: 500;
+    width: 700px;
+}
+#content .content_area .in_2 dd{
+    font-size: 1.3rem; font-weight: 400;
+    line-height: 2.5rem; padding-top: 30px;
+}
+
+
+
+
+/* #content .count{
+    width: 1400px; margin: 0 auto;
+    display: flex; gap: 40px;
+    align-items: center;
+}
+#content .count h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#content .count .event_list{
+    list-style: none; display: flex;
+    flex-direction: column; gap: 10px;
+    width: 300px; 
+}
+#content .count .event_list li{
+    padding: 10px 15px;
+    border: 1px solid #ccc; border-radius: 10px;
+    text-align: center;
+}
+#content .count .event_list li:hover{background: #f0f0f0;}
+#content .count .event_list li.active{
+    background: #ffd2c8;
+    color: #fff;
+    font-weight: bold; }*/
+
+/* 
+#content .count .event-box{
+    display: none; flex: 1;
+    background: #fff; padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+} */
+
+
+#content .event_section{
+    text-align: center; padding: 50px 20px;
+    background-color: #ffeac438;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+#content .event_section .event_title{
+    font-size: 2rem; margin-bottom: 20px;
+}
+#content .event_section .event_list{
+   list-style: none; display: flex;
+    flex-direction: column; gap: 10px;
+    width: 300px; margin: 0 auto;
+    padding-bottom: 30px;
+}
+#content .event_section .event_list li{
+    padding: 10px 15px;
+    border: 1px solid #ccc; border-radius: 10px;
+    text-align: center;}
+#content .event_section .event_list li:hover{background: #f0f0f0;}
+#content .event_section .event_list li.active{
+    background: #ffd2c8;
+    color: #fff;
+    font-weight: bold; }
+    #content .event_section .event_box{display: none;}
+#content .event_section .event_box>div{
+    display: flex; justify-content: center;
+    align-items: center; gap: 40px; width: 1400px;
+    margin: 0 auto; padding: 20px; 
+}
+#content .event_section .tabs label{font-size: 1.3rem; font-weight: 700; margin-bottom: 15px; display: block;}
+#content .event_section .tabs input,
+#content .event_section .tabs select, 
+#content .event_section .tabs textarea{
+    padding: 10px 110px; width:15%;
+    font-size: 1.5rem; border: 0; background: #fffafa;
+    color: #333; border: 1px solid #ccc;
+    border-radius: 15px; outline: none;
+    /* box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1); */
+    transition: all .5s ease-out;
+} 
+
+#content .event_section .event_image img{width: 300px; height: auto; border-radius: 10px;}
+#content .event_section .event-text{text-align: left; width: 500px;}
+#content .event_section .event-text p{margin-bottom: 15px;font-size: 1.2rem; }
+#content .event_section .event-text ul{list-style: none;}
+#content .event_section .event-text li{margin-bottom: 10px; line-height: 1.5;}
+

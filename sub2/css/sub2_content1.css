@@ -1,0 +1,20 @@
+/* 인사말 내용 콘텐츠 */
+#content{background: url(../images/content1/sub_back.jpg)
+    right 450px no-repeat}
+#content .content_area{
+    width: 100%; margin: 0 auto;
+    padding-bottom: 150px;
+    display: flex; justify-content: center;
+    align-items: flex-start; gap: 100px;}
+#content .content_area .content_left img{width: 560px; height: auto;
+    border-radius: 30px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);}
+#content .content_area .content_all{text-align: center; margin-top: 100px;}
+#content .content_area .content_top {font-size: 20px; display: block;
+    margin-bottom: 30px;}
+#content .content_area .content_top strong{color: #333; font-size: 1.5rem; font-weight: 500;}
+#content .content_area .content_right{float: right; overflow: hidden;
+    border: 2px solid #c67575; border-radius: 30px; padding: 25px;
+    box-sizing: border-box;}
+#content .content_area .content_right .content_top{margin: 60px 0 40px 60px;}
+#content .content_area .content_right p{font-size: 1rem; line-height: 1.9;}
+#content .content_area .content_right p span{color: #ff1a00; font-weight: bold;}

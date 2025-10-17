@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>동서식품</title>
+    <link rel="shortcut icon" type="image/x-icon"  href="./favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon">
+    <link rel="stylesheet" href="./main_css/swiper.min.css">
+    <link rel="stylesheet" href="./common/css/common.css">
+    <link rel="stylesheet" href="./main_css/main.css">
+    <link rel="stylesheet" href="./common/css/aos.css">
+
+    
+
+    <script src="https://kit.fontawesome.com/8b15c74e85.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+    <div id="wrap">
+        <!-- 헤더 영역 -->
+        <? include "./common/main_header.html" ?>
+
+        <div class="total_search_box">
+            <strong>찾으시는 동서식품의 상품을 검색해주세요.</strong>
+            <label for="total_title">상품명</label>
+            <input id="total_title" type="text" placeholder="맥심 모카골드 마일드 커피믹스" list="total_searchList" >
+            <button id="total_btn" type="button">검색</button>
+            <datalist id="total_searchList">
+                <option value="맥심 모카골드 마일드 커피믹스"></option>
+                <option value="맥심 모카골드 제로슈거 커피믹스"></option>
+                <option value="맥심 슈프림골드 커피믹스"></option>
+                <option value="맥심 화이트골드 커피믹스"></option>
+                <option value="맥심 티오피 마스터라떼"></option>
+                <option value="맥심 티오피 스위트 아메리카노"></option>
+                <option value="카누 마일드로스트 아메리카노"></option>
+                <option value="카누 라떼"></option>
+                <option value="카누 돌체라떼"></option>
+                <option value="동서 한잔용 보리차"></option>
+                <option value="동서 현미녹차"></option>
+                <option value="아이스티 티오 레몬"></option>
+                <option value="아이스티 티오 복숭아"></option>
+                <option value="아이스티 티오 애플"></option>
+                <option value="핫초코 미떼 오리지날"></option>
+                <option value="핫초코 마일드"></option>
+                <option value="오레오 오즈"></option>
+                <option value="오곡 코코볼"></option>
+                <option value="콘푸라이트"></option>
+                <option value="오레오 화이트크림"></option>
+                <option value="오레오씬즈 화이트크림"></option>
+                <option value="리츠 크래커"></option>
+            </datalist>
+        </div>
+
+        <div class="visual">
+            <div class="gallery">
+                <ul>
+                     <li class="link1"><img src="./main_images/visual_1.jpg" alt='' >
+                        <span class="visual_text_1">Warm Moment,</span>
+                        <span class="visual_text_2"><strong>동서식품</strong>과 함께하는 일상의 <strong>따뜻함</strong></span>
+                    </li>
+                     <li class="link2"><img src="./main_images/visual_2.jpg" alt='' >
+                        <span class="visual_text_1">Together for a Happier World,</span>
+                        <span class="visual_text_2">더 행복한 세상을 <strong>함께</strong></span>
+                    </li>
+                     <li class="link3"><img src="./main_images/visual_3.jpg" alt='' >
+                        <span class="visual_text_1">EveryDay Delight,</span>
+                        <span class="visual_text_2">소소한 <strong>기쁨</strong>을 전하는 작은 시작</span>
+                    </li>
+               </ul>
+            </div>
+      
+            <div class="dock">
+                <span class="mbutton  btn1" ></span>
+                <span class="mbutton  btn2" ></span>
+                <span class="mbutton  btn3" ></span>
+                <span class="ps" ><span class="hidden">stop</span><i class="fa-regular fa-circle-stop"></i></span>
+            </div>
+       
+       <span class="btn btnLeft"><i class="fa-solid fa-angle-left"></i></span>
+       <span class="btn btnRight"><i class="fa-solid fa-angle-right"></i></span>
+            <!-- <div class="gallery">
+                <ul>
+                    <li>
+                        <img src="./main_images/visual_1.jpg" alt="">
+                        <p>Warm Moment,<br><span>동서식품과 함께하는 일상의 따뜻함</span></p>
+                    </li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                
+            </div> -->
+        </div>
+        <article id="content">
+            <h2 class="hidden">본문컨텐츠 영역</h2>
+            <section class="box">
+                
+                    <h3 data-aos="zoom-in">PRODUCT</h3>
+                    <p data-aos="zoom-in">동서식품의 다양한 제품을 만나보실 수 있습니다.</p>
+            
+                    <div class="serch_box">
+                            <label class="hidden" for="title">제품명</label>
+                            <input id="title" type="text" list="searchList" placeholder="맥심 모카골드 마일드 커피믹스">
+                            <button id="btn" type="button">검색</button> 
+
+                            <datalist id="searchList">
+                                <!-- class는 안됨!! -->
+                                <option value="맥심 모카골드 마일드 커피믹스"></option>
+                                <option value="맥심 모카골드 제로슈거 커피믹스"></option>
+                                <option value="맥심 슈프림골드 커피믹스"></option>
+                                <option value="맥심 화이트골드 커피믹스"></option>
+                                <option value="맥심 티오피 마스터라떼"></option>
+                                <option value="맥심 티오피 스위트 아메리카노"></option>
+
+                                <option value="카누 마일드로스트 아메리카노"></option>
+                                <option value="카누 라떼"></option>
+                                <option value="카누 돌체라떼"></option>
+                                
+                                <option value="동서 한잔용 보리차"></option>
+                                <option value="동서 현미녹차"></option>
+
+                                <option value="아이스티 티오 레몬"></option>
+                                <option value="아이스티 티오 복숭아"></option>
+                                <option value="아이스티 티오 애플"></option>
+
+                                <option value="핫초코 미떼 오리지날"></option>
+                                <option value="핫초코 마일드"></option>
+                                
+                                <option value="오레오 오즈"></option>
+                                <option value="오곡 코코볼"></option>
+                                <option value="콘푸라이트"></option>
+
+                                <option value="오레오 화이트크림"></option>
+                                <option value="오레오씬즈 화이트크림"></option>
+                                <option value="리츠 크래커"></option>
+                            </datalist>
+                        </div>
+
+                        <div class="product_list">
+                            <!-- 여기에 검색 리스트 -->
+                        </div>
+                    <a href="./sub1/sub1_4.html">
+                     <div class="swiper-container swiper1" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr1.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr2.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr3.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr4.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr5.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr6.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr7.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr8.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr9.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr10.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr11png.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr12.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr13.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr14.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr15.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr16.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr17.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr18.png)"></li>
+                            <li class="swiper-slide" style="background-image:url(./main_images/pr19.png)"></li>
+                        </ul>
+                       
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                    <div id="text">
+                    <!-- 이미지에 대한 설명 삽입 -->
+                    </div>
+                    </a>
+            </section>
+
+            <!-- 회사소개 -->
+            <section class="company">
+                <div class="company_top">
+                    <h3 data-aos="zoom-in">
+                        <span>since</span>
+                        <strong class="company_year">0</strong>
+                        <span>About 동서</span>
+                    </h3>
+                  </div>
+
+                  <div class="company_inner">
+                      <ul>
+                          <li data-aos="fade-up">
+                              <img src="./main_images/c_1.jpg" alt="">
+                              <div>
+                                  <h4>인사말</h4>
+                                  <p>동서식품은 반세기 넘는 기간 동안 소비자들의 신뢰와 성원 속에 최고 품질의 제품을 드리기 위해 노력해왔습니다.</p>
+                              </div>
+                              <a href="./sub2/sub2_1.html">
+                                <span class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                              </a>
+                          </li>
+                   
+                          <li data-aos="fade-down">
+                              <img src="./main_images/c_2.jpg" alt="">
+                              <div>
+                                <h4>연혁</h4>
+                                <p>동서식품은 1968년 5월 23일 첫 출범을 한 이후 꾸준한 발전을 거듭해 왔습니다.</p>
+                                 
+                              </div>
+                              <a href="./sub2/sub2_2.html">
+                                <span class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                              </a>
+                          </li>
+                   
+                          <li data-aos="fade-up">
+                              <img src="./main_images/c_3.jpg" alt="">
+                              <div>
+                                <h4>부분역량</h4>
+                                <p>동서식품은 제품 &#183; 기획 단계에서 생산 판매에 이르기까지 항상 새로운 맛, 새로운 만족을 창조합니다.</p>
+                              </div>
+                              <a href="./sub2/sub2_3.html">
+                                <span class="material-symbols-outlined">
+                                    arrow_forward
+                                    </span>
+                              </a>
+                          </li>
+                      </ul>
+                      </div>
+            </section>
+            
+            <!-- 식품안전 -->
+            <section class="food_safety">
+                <div class="safety_top" data-aos="fade-up">
+                    <h3>식품안전 <span>Food Safety</span></h3>
+                    <p>동서식품은 고객에게 안전한 식품을 공급해 드리기 위해 최선을 다하고 있습니다.</p>
+                </div>
+
+
+                <ul>
+                    <li class="scene" data-aos="flip-right">
+                        <a href="./sub3/sub3_1.html">
+                        <div class="card card_left">
+                                <div class="card_face front">
+                                    <span class="material-symbols-outlined">
+                                        cardiology
+                                    </span>
+                                    <strong>안전한 식품 이야기</strong>
+                                </div>
+                                <div class="card_face back">
+                                    <strong>안전한 식품 이야기</strong>
+                                    <span class="material-symbols-outlined">
+                                        cardiology
+                                    </span>
+                                    <p>동서식품은 전 제품의 품질 및 식품안전을 보증함으로써 고객만족을 최우선으로 하고 있습니다.</p>
+                                </div>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="scene" data-aos="flip-right">
+                        <a href="./sub3/sub3_2.html">
+                        <div class="card card_right">
+                                <div class="card_face front">
+                                    <span class="material-symbols-outlined">
+                                        diversity_2
+                                    </span>
+                                    <strong>산업안전보건방침</strong>
+                                </div>
+                                <div class="card_face back">
+                                    <strong>산업안전보건방침</strong>
+                                    <span class="material-symbols-outlined">
+                                        diversity_2
+                                    </span>
+                                    <p>동서식품은 안전한 생산환경을 위해 전 임직원이<br> 최선을 다해 산업안전보건 방침을 실천합니다.</p>
+                                </div>
+                        </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 사회공헌 -->
+            <section class="csr">
+            <div class="csr_inner">
+                <div class="section_title" data-aos="fade-zoom-in">
+                       <h2>사회공헌</h2>
+                </div> 
+
+            <div class="csr tabs">
+                <h3 class="hidden">사회공헌</h3>
+                    <ul class="tab_menu" data-aos="fade-up" data-aos-duration="1000">
+                        <li><a href="#" class="tab tab1">동서식품 장학회</a></li>
+                        <li><a href="#" class="tab tab2">꿈의 도서관</a></li>
+                        <li><a href="#" class="tab tab3">맥심 사랑의 향기</a></li>
+                        <li><a href="#" class="tab tab4">맥심커피배 입신최강전</a></li>
+                    </ul>
+            
+                
+                   
+                    <div class="csr_box" data-aos="fade-zoom-in" data-aos-duration="1000">
+                        <div class="csr_content">
+                            <div class="csr_text">
+                                <h3>동서식품 장학회</h3>
+                                <p>
+                                    1993년부터 시작된 동서식품 장학회는 경제적 어려움 속에서도 학업에 대한 열정을 잃지 않는 청소년들에게
+                                    등록금과 학업지원을 통해 <strong>든든한 버팀목</strong>이 되어주며,
+                                    매년 수백 명의 <strong>미래 인재가 꿈을 펼칠 수 있도록 따뜻한 손길</strong>을 이어오고 있습니다.
+                                </p>
+                                <a href="./sub4/sub4_1.html">자세히 보기+</a>
+                            </div>
+                        
+                            <div class="csr_img">
+                                <img src="./main_images/csr_1.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="csr_content">
+                            <div class="csr_text">
+                                <h3>꿈의 도서관</h3>
+                                <p>
+                                    동서식품의 '꿈의 도서관'은 <strong>아이들이 더 넓은 세상과 만날 수 있도록</strong> 책과 새로운 서가를 선물하는 동서식품의 마음 나눔 프로젝트입니다.<br>
+                                    낡은 공간이 <strong>따뜻한 독서 쉼터로 변하며, 아이들의 꿈이 한 장 한 장 자라납니다.</strong>
+                                </p>
+                                <a href="./sub4/sub4_2.html">자세히 보기+</a>
+                            </div>
+                        
+                            <div class="csr_img">
+                                <img src="./main_images/csr_2.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="csr_content">
+                            <div class="csr_text">
+                                <h3>맥심 사랑의 향기</h3>
+                                <p>
+                                    동서식품의 '사랑의 향기'는 악기와 단복, 연습 공간을 선물하며 유소년 오케스트라에 <strong>희망의 선율을 더하는 문화 나눔 활동</strong>입니다.
+                                    아이들은 동서커피 클래식 무대에서 빛나는 순간을 경험하며, 세상에 첫 음악 편지를 보냅니다.
+                                </p>
+                                <a href="./sub4/sub4_3.html">자세히 보기+</a>
+                            </div>
+                        
+                            <div class="csr_img">
+                                <img src="./main_images/csr_3.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="csr_content">
+                            <div class="csr_text">
+                                <h3>맥심커피배 입신 최강전</h3>
+                                <p>
+                                    동서식품의 '입신최강전'은 최고의 기사들이 자존심을 걸고 맞붙는 국내 유일의 9단 토너먼트 대회 입니다.
+                                    25년 넘게 이어진 후원 속에서 <strong>바둑의 깊이와 아름다움</strong>이 더 많은 사람에게 전해지고 있습니다.
+                                </p>
+                                <a href="./sub4/sub4_3.html">자세히 보기+</a>
+                            </div>
+                        
+                            <div class="csr_img">
+                                <img src="./main_images/csr_4.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            </section>
+
+            <!-- 뉴스 -->
+            <section class="news">
+                <div class="news_inner">
+                    <!-- 왼쪽 텍스트 영역 -->
+                    <div class="news_text" >
+                        <h3>뉴스룸<span>News</span></h3>
+                        
+                        <p>동서식품의 따뜻하고 향기로운 소식</p>
+                        <a href="https://yrin483.mycafe24.com/gb/bbs/board.php?bo_table=notice" class="news_btn">자세히 보기+</a>
+                    </div>
+                    
+                    <!-- 오른쪽 카드 영역 -->
+                    <div class="news_cards swiper-container swiper2">
+                        <ul class="swiper-wrapper">
+                            <li class="news_card swiper-slide">
+                                <img src="./main_images/news_1.jpg" alt="">
+                                <dl>
+                                    <dt>동서식품, 건강한 여름나기 위한...</dt>
+                                    <dd>📍혹서기를 앞두고 취약계층의 건강한 여름나기를 위해 네이버 해피빈 통해 상금 1억원 기탁</dd>
+                                </dl>
+                            </li>
+                      
+                            <li class="news_card swiper-slide">
+                                <img src="./main_images/news_2.jpg" alt="">
+                                <dl>
+                                    <dt>동서식품, 신제춤 '리츠 크래커...</dt>
+                                    <dd>📍크래커 리츠와 김의 바삭하고 고소한 만남!</dd>
+                                </dl>
+                            </li>
+                      
+                            <li class="news_card swiper-slide">
+                                <img src="./main_images/news_3.jpg" alt="">
+                                <dl>
+                                    <dt>동서식품, 커피 가격 조정</dt>
+                                    <dd>📍원재료 가격 상승으로 인스턴트 커피, 커피믹스, 커피음료 등 제품 출고 가격...</dd>
+                                </dl>
+                            </li>
+                       
+                            <li class="news_card swiper-slide">
+                                <img src="./main_images/news_4.jpg" alt="">
+                                <dl>
+                                    <dt>동서식품,인천 무의도서 해변...</dt>
+                                    <dd>📍19일, 인천 무의도 해안가에서 플로깅 봉사활동 통해 해양 생태 보호 실천</dd>
+                                </dl>
+                            </li>
+                        
+                            <li class="news_card swiper-slide">
+                                <img src="./main_images/news_5.jpg" alt="">
+                                <dl>
+                                    <dt>동서식품, 육아용품 키트 제작...</dt>
+                                    <dd>📍한부모가정을 위한 육아용품 나눔 봉사활동</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 고객의 소리 영역 -->
+            <section class="cvms">
+                <h3>고객의 소리</h3>
+                <p>고객의 작은 목소리 하나까지도 귀 기울이며 소비자를 먼저 생각하겠습니다.</p>
+                <div class="cvms_img">
+                 
+                </div>
+
+                <div class="cvms_box">
+                    <ul>
+                        <li>
+                            <a href="./sub6/sub6_2.html">
+                                <span class="material-symbols-outlined">
+                                    contact_support
+                                </span>
+                                <span>자주 묻는 질문과 답변</span>
+                                <strong>FAQ</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./sub6/sub6_1.html">
+                                <span class="material-symbols-outlined">
+                                    3p
+                                </span>
+                                <span>제품 관련 문의 및 불편사항</span>
+                                <strong>문의하기</strong>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./sub6/sub6_3.html">
+                                <span class="material-symbols-outlined">
+                                    tooltip_2
+                                </span>
+                                <span>소비자 중심 경영</span>
+                                <strong>CCM</strong>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>
+        </article>
+
+        <? include "./common/main_footer.html" ?>
+
+
+    </div>
+    <!-- 메인 공지 팝업 -->
+    <script src="./main_js/mainpopup.js"></script>
+
+    <div id="showimage" style="z-index:80; position:absolute; width:322px; right:100px; top:400px;">
+        <script>
+          function closeWin(){
+             var chk = document.getElementById('Notice')
+             if ( chk.checked ) {
+                   setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+              }
+          }
+         if ( getCookie( "Notice" ) == "done" ) {
+             hidebox();
+         }
+       </script>
+          <div>
+                <img src="./main_images/main_pop1.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+          </div>
+           <div style="font-size:12px;text-align:center;color:#fff;">
+             <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이 창을 열지 않음 선택상자"><label for="Notice">오늘은 이 창을 열지 않음.</label>
+           <a href="#"  onclick="closeWin();hidebox();return false;" style="color: #fff;"> [close] </a>
+        </div>
+      </div>
+      
+<script src="./common/js/jquery-1.12.4.min.js"></script>
+<script src="./common/js/jquery-migrate-1.4.1.min.js"></script>
+<script src="./common/js/fullnav.js"></script>
+<script src="./main_js/move.js"></script>
+<script src="./common/js/main_search.js"></script>
+<script src="./main_js/swiper.min.js"></script>
+<script src="./main_js/pr.js"></script>
+<script src="./common/js/sub_search.js"></script>
+<script src="./main_js/csr.js"></script>
+<script src="./common/js/aos.js"></script>
+
+<script>
+        AOS.init({
+        easing: 'ease-in-out-sine',
+        once: false
+        });
+    </script>
+</body>
+</html>

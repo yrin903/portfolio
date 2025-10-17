@@ -1,0 +1,36 @@
+/* 공통 비주얼 영역 */
+.visual{width: 2000px; height: 400px;
+    background: url(../images/comsub.png);
+    position: relative; top: 0; left: 50%;
+    transform: translateX(-50%);}
+.visual strong{
+    font-size: 32px; color: #fff; font-weight: 600;
+    position: absolute; width: 100%; left: 0; top: 50%;
+    display: block; text-align: center;}
+
+/* 서브 메뉴 영역 */
+.sub_nav{width: 1000px; border: 1px solid #ccc;
+    margin: 30px auto 0; border-radius: 50px;}
+.sub_nav ul{width: 1000px; margin: 0 auto; display: flex;}
+.sub_nav ul li{width: 50%; box-sizing: border-box;
+    text-align: center; }
+.sub_nav ul li a{
+    border-radius: 50px; margin: 7px;
+    display: block; font-size: 1.2rem; font-weight: 600;
+    padding: 15px 0; transition: all .5s ease-out;}
+.sub_nav ul li a:hover,
+.sub_nav ul li a.current{background:#ff1a00; color: #fff;}
+
+/* 콘텐츠의 타이틀 영역 */
+#content{width: 100%;}
+#content .title_area{width: 1400px; margin: 0 auto;
+    padding: 150px 0 300px; position: relative;}
+#content .title_area h2{font-size: 60px; font-weight: 700;
+    text-align: center; margin-bottom: 20px; position: relative;}
+#content .title_area h2::after{content: ''; position: absolute;
+    left: 50%; top: 180px; transform: translateX(-50%);
+    display: block; width: 2px; height: 100px; background: #ff1a00;}
+#content .title_area p{font-size: 24px; text-align: center; font-weight: 500;
+    color: #ff1a00;}
+#content .title_area .line_map{position: absolute; right: 0;top: 15px;
+    font-size: 1rem; }

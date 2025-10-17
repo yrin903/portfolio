@@ -1,0 +1,18 @@
+{
+    "sam": [
+        {"Name":"동서 보리차","Image":"./images/content3/product01.png","pop_img":"./images/content3/big1.png","pop_tit":"고소하고 깔끔한 맛으로 언제 마셔도 부담 없는 보리차","kcal":100},
+        {"Name":"동서 현미녹차","Image":"./images/content3/product02.png","pop_img":"./images/content3/big2.png","pop_tit":"현미의 구수함과 녹차의 상쾌함이 조화로운 무설탕 차","kcal":100},
+        {"Name":"동서 옥수수차","Image":"./images/content3/product03.png","pop_img":"./images/content3/big3.png","pop_tit":"은은한 단맛과 부드러운 풍미가 매력적인 옥수수차","kcal":100},
+        {"Name":"동서 애사비 콤부차 레몬 라임","Image":"./images/content3/product04.png","pop_img":"./images/content3/big4.png","pop_tit":"상큼한 레몬라임 풍미로 산뜻하게 즐기는 콤부차","kcal":100},
+        {"Name":"동서 애사비 콤부차 피치 패션프롯","Image":"./images/content3/product05.png","pop_img":"./images/content3/big5.png","pop_tit":"달콤한 복숭아와 패션프롯의 이국적인 조화가 돋보이는 콤부차","kcal":100},
+        {"Name":"아이스티 티오 복숭아","Image":"./images/content3/product06.png","pop_img":"./images/content3/big6.png","pop_tit":"복숭아 향 가득, 시원하고 달쿰한 여름철 필수 아이스티","kcal":100},
+
+        {"Name":"아이스티 티오 레몬","Image":"./images/content3/product07.png","pop_img":"./images/content3/big7.png","pop_tit":"상큼한 레못맛이 입안을 깨우는 깔끔한 아이스티","kcal":100},
+        {"Name":"아이스티 티오 애플","Image":"./images/content3/product08.png","pop_img":"./images/content3/big8.png","pop_tit":"사과의 산뜻함을 담은 달콤하고 시원한 아이스티","kcal":100},
+        {"Name":"핫초코 미떼 오리지날","Image":"./images/content3/product09.png","pop_img":"./images/content3/big9.png","pop_tit":"진한 초콜릿의 달콤함이 그대로 살아있는 정통 핫초코","kcal":100},
+        {"Name":"핫초코 마일드","Image":"./images/content3/product10.png","pop_img":"./images/content3/big10.png","pop_tit":"부드럽고 은은한 단맛의 순한 맛 핫초코","kcal":100},
+
+        {"Name":"제티 초코","Image":"./images/content3/product11.png","pop_img":"./images/content3/big11.png","pop_tit":"아이부터 어른까지 모두 좋아하는 고소한 초코음료","kcal":100},
+        {"Name":"제티 딸기","Image":"./images/content3/product12.png","pop_img":"./images/content3/big12.png","pop_tit":"달콤한 딸기맛으로 기분까지 상큼해지는 분말 음료","kcal":100}
+    ]
+}

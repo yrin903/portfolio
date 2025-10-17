@@ -1,0 +1,98 @@
+/* 안전한 식품 이야기 콘텐츠 */
+#content .content_area{
+    width: 100%; margin: 0 auto;
+    padding-bottom: 150px;}
+#content .content_area .hidden{
+    display: block; color: #fff;
+    position: absolute; left: -1000%;
+    width: 1px; height: 1px;
+}
+#content .content_area .intro{
+    margin: 0 auto;
+    font-size: 1.65rem; font-weight: 300;
+    position: relative; line-height: 1.8;
+    text-align: center; overflow: hidden;
+}
+#content .content_area .fa-solid{font-size: 3rem; color: #efefef; 
+    padding: 0 5px; position: relative;}
+#content .content_area p strong{font-size: 2rem;}
+#content .content_area p mark{background: #e2917f;
+    border-radius: 14px; padding: 0px 8px; color: #fff;
+    font-weight: 400;} 
+
+#content .content_inner{
+    width: 1400px; margin: 0 auto;}
+#content .content_inner .con1 strong{
+    width: 1200px;
+    display: block; text-align: left;
+    font-size: 2rem;
+    margin: 100px auto;
+}
+#content .content_inner .con1 strong::after{
+    content: ''; position: absolute; margin: 10px 0;
+    display: block; width: 50px; height: 2px; background: #FF1A00;}
+
+#content .content_inner .con1 p{
+    width: 1200px; margin: 0 auto;
+    font-size: 1.2rem; line-height: 2.5rem;
+    font-weight: 500; text-align: justify;
+}
+#content .con1 .box_img{
+    display: flex;
+    background: url(../images/content1/con1_mid2.jpg)no-repeat center top;
+    justify-content: center; align-items: center;
+    background-attachment: fixed; 
+    background-size: cover;
+    width: 100%; height: 400px;
+    margin: 150px auto;
+    border-radius: 20px;
+}
+
+#content .con2 .box_img{
+    display: flex;
+    background: url(../images/content1/con1_mid1.jpg)no-repeat center top;
+    justify-content: center; align-items: center;
+    background-attachment: fixed; 
+    background-size: cover;
+    width: 100%; height: 400px;
+    margin: 70px auto;
+    border-radius: 20px;
+}
+#content .content_inner .con2 strong{
+    width: 1200px;
+    display: block; text-align: left;
+    font-size: 2rem;
+    margin: 100px auto;
+}
+#content .content_inner .con2 strong::after{
+    content: ''; position: absolute; margin: 10px 0;
+    display: block; width: 50px; height: 2px; background: #FF1A00;}
+#content .content_inner .con2 ul{
+    display: flex; margin: 30px auto;
+    justify-content: center; text-align: left;
+    gap: 50px; flex-wrap: wrap;
+}
+#content .content_inner .con2 ul li{
+    width: 550px; height: 180px;
+    border: 1px solid #ccc;
+    border-radius: 30px; padding: 30px;
+    transition: all .5s ease-out;
+}
+#content .content_inner .con2 ul li:hover{
+    border-color: #FF1A00;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 20px 5px rgba(215, 105, 105, 0.3);
+}
+#content .content_inner .con2 ul li i{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+#content .content_inner .con2 dl dt{
+    font-size: 1.5rem; font-weight: 600;
+    margin-bottom: 20px;
+}
+#content .content_inner .con2 dl dd{
+    font-size: 1rem; color: #333;
+}

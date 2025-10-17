@@ -1,0 +1,57 @@
+/* 부분역량 내용 콘텐츠 */
+#content .content_area{
+    width: 100%; height: 100%; margin: 0 auto;
+    padding-bottom: 150px;}
+
+#content .tab_menu{
+    width: 800px; margin: 0 auto; 
+    display: flex; justify-content: center;
+    font-size: 1.5rem; font-weight: 500;}
+#content .tab_menu .tab{
+    text-align: center; color: #333; background: #f6f6f6; 
+    width: 200px; padding: 10px; margin: 20px;
+    text-align: center; font-size: 1rem; font-weight: 500;
+    border-radius: 50px; border: 1px solid #f6f6f6;
+    transition: all .5s ease-out;
+    text-decoration: none;}
+#content .tabs .tab:hover{border: 1px solid #ff1a00}
+#content .tab_menu a.current{background: #FF1A00; color: #fff;}
+
+#content .content_area .con1{width: 1400px; margin: 0 auto;}
+#content .content_area .con1 ul{display: flex; flex-direction: column; gap: 80px;
+    margin-top: 100px;}
+#content .content_area .con1 ul li{display: flex; height:393px; justify-content: center;
+    align-items: center; gap: 80px;}
+#content .content_area .con1 ul li img{
+    border-radius: 30px 30px 30px 100px; 
+    width: 600px; height: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);}
+#content .content_area .con1 ul li dl{color: #050D1B; text-align: left;
+    width: 600px; display: block; margin: 30px ;}
+#content .content_area .con1 ul li dl dt{
+    font-size: 2rem; margin-bottom: 30px;
+    padding-bottom: 40px; font-weight: 600;
+    border-bottom: 1px solid #333;}
+#content .content_area .con1 ul li dl dd strong{font-size: 1.5rem;}
+#content .content_area .con1 ul li dl dd{font-size: 1rem; width: 500px;
+    margin: 30px 0 0 25px;}
+
+
+
+#content .content_area .con2{width: 1400px; margin: 0 auto;}
+#content .content_area .con2 ul{display: flex; flex-direction: column; gap: 80px; margin-top: 100px;}
+#content .content_area .con2 ul li{display: flex; height:400px; justify-content: center; align-items: center; gap: 80px;}
+#content .content_area .con2 ul li img{
+    border-radius: 30px 30px 30px 100px; 
+    width: 600px; height: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);}
+#content .content_area .con2 ul li dl{color: #050D1B; text-align: left; width: 600px; display: block; margin-top: 30px;}
+#content .content_area .con2 ul li dl dt{font-size: 2rem;  padding-bottom: 40px; font-weight: 600; border-bottom: 1px solid #333;}
+#content .content_area .con2 ul li dl dd strong{font-size: 1.5rem;}
+#content .content_area .con2 ul li dl dd{font-size: 1rem; width: 500px; margin: 30px 0 0 25px;}
+
+
+#content .content_area .con1 ul li.reverse,
+#content .content_area .con2 ul li.reverse{flex-direction: row-reverse;}
+#content .content_area .con1 ul li.reverse img,
+#content .content_area .con2 ul li.reverse img{border-radius: 30px 30px 100px 30px;}

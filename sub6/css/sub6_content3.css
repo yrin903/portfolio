@@ -1,0 +1,138 @@
+/* 오시는길 내용 콘텐츠 */
+#content .content_area{
+    width: 100%; margin: 0 auto;
+    }
+
+#content .top{position: relative; width: 1400px; margin: 0 auto;}
+#content .top img{border-radius: 40px; display: block;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);}
+#content .top .info{
+    position: absolute; bottom: -80px; right: -30px;
+    padding: 20px 40px;
+    background: rgba(254, 248, 248, 0.85);
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ff190048;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    transition: all .5s ease-out;
+}  
+#content .top .info:hover{
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(240, 140, 140, 0.793);
+}
+#content .top .info .material-symbols-outlined{
+    font-size: 30px;
+    float: left;
+    color: var(--font-color-point2);}                
+#content .top .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    gap: 8px;
+}
+#content .top .info p{margin: 0; font-size: 16px; line-height: 2;}
+
+
+#content .bottom_wrap{
+    width: 1400px;
+    padding: 300px 0 100px;
+    margin: 0 auto;
+}
+#content .bottom_wrap .bottom1 dl{
+    width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+}
+#content .bottom_wrap .bottom1 dl dt{font-size: 2.5rem; font-weight: 500;}
+#content .bottom_wrap .bottom1 dl dd{
+    width: 1400px;
+    font-size: 1.2rem; 
+    font-weight: 400; 
+    margin: 50px auto;}
+
+#content .bottom_wrap .bottom2{position: relative;}
+#content .bottom_wrap .bottom2 .box{
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,.7);
+    position: fixed;
+    left: 0; top: 0;
+    display: none;
+    z-index: 10;}
+
+#content .bottom_wrap .bottom2 ul{
+    display: flex; gap: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 0; list-style: none;
+    margin: 200px;}
+
+#content .bottom_wrap .bottom2 li{
+    display: flex;
+    width: 300px; height: 300px;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-out;
+}
+#content .bottom_wrap .bottom2 li:hover{
+    box-shadow: 0px 4px 13px rgba(0,0,0,0.5);
+}
+
+#content .bottom_wrap .bottom2 li .openBtn{position: relative;}
+
+#content .bottom_wrap .bottom2 li:hover .openBtn::after{
+    content: '클릭하여 자세히 보기';
+    position: absolute;
+    left: -80px;
+    bottom: -150px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background: rgba(255, 175, 175, 0.793);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.3);
+    display: block;
+    width: 250px;
+    text-align: center;}
+
+#content .bottom_wrap .bottom2 .big{
+    width: 600px; height: 550px;
+    border-radius: 10px;
+    border: 3px solid #7b7b7b;
+    background: #f9f4f0; padding: 10px;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index: 20;
+    display: none;
+    position: absolute;
+}
+#content .bottom_wrap .bottom2 .big span{
+    font-size: 2rem; font-weight: 500;
+    text-align: center;
+    display: block;
+    margin: 20px 0;}
+#content .bottom_wrap .bottom2 img{
+    display: block; margin: 0 auto; margin-bottom: 20px;
+    border-radius: 10px; box-shadow: 0px 4px 13px rgba(0,0,0,0.25);}
+#content .bottom_wrap .bottom2 .big p{text-align: center; padding: 10px;font-size: 1rem;}
+#content .bottom_wrap .bottom2 .big .closeBtn{display: block; text-align: center;}
+#content .bottom_wrap .bottom2 ul .fa-solid{font-size: 100px; color: var(--font-color-sub2);}
+#content .bottom_wrap .bottom2 ul p{font-size: 1rem; font-weight: 600; padding-top: 20px; text-align: center;}
+#content .bottom_wrap .bottom2 .big .closeBtn{display: block;}  
+#content .bottom_wrap .bottom2 .big .closeBtn span{color: #e0b1ac; font-size: 24px; display: block; padding-bottom: 20px;}
+#content .bottom_wrap .bottom2 .big .closeBtn:hover span{color: #ff1a00;}
+
+
+#content .bottom_wrap2{
+    background: #f5f2edd9; padding: 30px;
+    text-align: center; width: 100%; margin: 0 auto;}
+#content .bottom_wrap2 .c_text{margin-top: 50px;}
+#content .bottom_wrap2 .c_text strong{font-size: 24px; font-weight: 700; color: #333; display: block;}
+#content .bottom_wrap2 .c_text p{font-size: 16px; color: #333; margin-top: 50px;}
+#content .bottom_wrap2 .c_text hr{border: none; height: 1px; background-color: #ccc; width: 50%; margin: 20px auto; margin-top: 60px;}
+#content .bottom_wrap2 .c_img{display: flex; justify-content: center; gap: 80px; margin: 150px 0;}

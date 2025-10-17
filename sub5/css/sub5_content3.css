@@ -1,0 +1,56 @@
+/* 오시는길 내용 콘텐츠 */
+#content .content_area{width: 1400px; margin: 0 auto; padding-bottom: 150px;}
+#content .content_area .tab_menu{
+    display: flex; margin: 0 auto;
+    align-items: center; justify-content: center;
+    margin-bottom: 100px; gap: 30px;}
+#content .content_area .tab_menu .tab.current{background: var(--font-color-main); color: #fff;}
+#content .content_area .tab_menu .tab{
+    color: #333; background: #f6f6f6;
+    width: 200px; padding: 10px; margin: 20px;
+    text-align: center;
+    font-size: 1rem; font-weight: 500;
+    border-radius: 50px; border: 1px solid #ccc;
+    transition: all .5s ease-out;
+    text-decoration: none;
+    box-shadow: 4px 4px 16px 0 rgba(0,0,0,.2);
+}
+#content .content_area .tab_menu .tab:hover{border: 1px solid #ff1a00;}
+#content .content_area .contlist:nth-of-type(1) iframe{
+    display: block; margin: 0 auto;
+    width: 900px; height: 505px;
+    border-radius: 15px;
+    box-shadow: 8px 12px 20px rgba(0,0,0,0.35);
+    padding: 8px; background: #f6f4e5;}
+#content .content_area .tabs.contlist{display: none;}
+#content .content_area .contlist ul{
+    margin: 0 auto; display: flex;
+    justify-content: center; flex-wrap: wrap;
+    gap: 100px; margin-top: 100px;}
+#content .content_area .contlist ul li a{
+    width: 400px; height: 270px; background: #f6f4e5;
+    box-shadow: 8px 12px 20px rgba(0,0,0,0.35), 0 2px 4px rgba(0,0,0,0.15);
+    display: flex; gap: 14px; justify-content: center;
+    flex-direction: column; align-items: center; transition: all .3s ease-out; }
+#content .content_area .contlist ul li a img{width: 380px; border-radius: 5px; box-shadow: 2px 2px 12px 0 rgba(0,0,0,.3);}
+#content .content_area .contlist ul li a p{font-size: 1.1rem; font-weight: 500;}
+#content .content_area .contlist ul li{position: relative; overflow: visible;}
+#content .content_area .contlist ul li::before{
+    content: ""; display: block; position: absolute;
+    background: url(../images/content3/pin.png) no-repeat center/contain; 
+    width: 20px; height: 30px;
+    top: -25px; left: 50%;
+    transform: translateX(-50%) rotate(-5deg);
+    z-index: 10;}
+#content .content_area .contlist ul li::after{
+    content: ""; display: block; position: absolute;
+    background: url(../images/content3/play_btn.png) no-repeat center/contain;
+    width: 70px; height: 70px; transform: translate(-50%,-50%);
+    top: 45%; left: 50%; color: #fff; opacity: 0;
+    transition: all .2s ease-out;}
+#content .content_area .contlist ul li a:hover{background:rgba(255, 185, 185, 0.2);}
+#content .content_area .contlist ul li:hover::after{opacity: 30;}
+
+
+#content .content_area .contlist:nth-of-type(2) ul li a{background-color: #fff;}
+#content .content_area .contlist:nth-of-type(2) ul li a:hover{background:rgba(255, 185, 185, 0.2);}
