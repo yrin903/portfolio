@@ -1,0 +1,329 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+.down{
+   display: block;
+   font-size: 20px;
+   position: relative;
+   left: 50%;
+   top: 70vh;
+   transform: translateX(-50%);
+   width: 45px;
+   height: 80px;
+   border: 1px solid rgba(231, 234, 249, 0.309);
+   border-radius: 60px;
+   backdrop-filter: blur(6px);
+   overflow: hidden;
+   z-index: 10;
+   background: rgba(113, 113, 113, 0.3);
+   box-shadow: 0 0 15px rgba(237, 241, 246, 0.808);
+}
+.down .scroll{
+   display: flex; flex-direction: column; 
+   align-items: center; color: #cfdcff; 
+   animation:ani 3s infinite;
+   
+}
+
+#wrap .videoBox .down .fa-moon {
+  font-size: 28px;
+  color: #fff3b9;
+  text-shadow: 0 0 10px #fff8d1, 0 0 25px #ffd966;
+  padding-bottom: 8px;
+}
+#wrap .videoBox .down .fa-angles-down {
+  font-size: 1rem;
+   color: #fffbe8;
+  text-shadow: 0 0 8px #fff6cc, 0 0 18px #ffd966;
+}
+
+@keyframes ani {
+  0% {
+    transform: translateY(-80%);
+    opacity: 0.7;
+    color: #fff;
+  }
+  50% {
+    transform: translateY(20%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(200%);
+    opacity: 1;
+  }
+}
+
+#content{ 
+   width:100%; margin:0; background:rgba(0,0,0,.8);position: relative; padding-bottom: 100px;
+   & h2{
+   position: absolute; top: -500px; font-family: 'SpaceX', sans-serif;;
+   width: 100%; text-align: center; font-size: 4.2rem; color: #fff;
+   text-shadow: 
+    0 0 2px rgba(0,0,0,0.5),
+   0 0 8px rgba(0,0,0,0.4);
+}
+   & section{width: 100%; margin: 0 auto;}
+}
+#content h3{
+   margin: 0 auto; padding: 150px 0 20px 0; text-align: center;
+   font-family: 'Roboto', sans-serif; font-size: 3rem; font-weight: 800;
+}
+#content p{
+   margin: 20px auto 200px; text-align: center; 
+   font-weight: 300; width: 50%; font-size: 1.2rem;}
+
+#content .sec1{
+
+   width: 90%;
+   margin: 10px auto;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-auto-rows: auto;
+   grid-gap: 10px;
+   grid-template-areas:
+    'a a b b c'
+    'a a d e f'
+    'g g h i f'
+    ;
+}
+#content .sec1 img{width: 100%; object-fit: cover; display: block; transition: all 0.5s ease-out;}
+#content .sec1 .sec1_1{grid-area: a;}
+#content .sec1 .sec1_2{grid-area: b;}
+#content .sec1 .sec1_3{grid-area: c;}
+#content .sec1 .sec1_4{grid-area: d;}
+#content .sec1 .sec1_5{grid-area: e;}
+#content .sec1 .sec1_6{grid-area: f;}
+#content .sec1 .sec1_7{grid-area: g;}
+#content .sec1 .sec1_8{grid-area: h;}
+#content .sec1 .sec1_9{grid-area: i;}
+
+#content .sec1 .sec1_8{
+   margin-top: 40%; text-align: center; height: 100%;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.5rem; font-weight: 600;
+}
+#content .sec1 .sec1_8 .paging{
+   display: flex; align-items: center; justify-content: center;
+   border: 1px solid #ccc; background: #97979764; text-align: center;
+   border-radius: 50px;  width: 150px; gap: 10px; margin: 20px auto 0;
+}
+#content .sec1 .sec1_8 .arrow{color: #fff; background: none; font-size: .8rem; cursor: pointer;}
+#content .sec1 .sec1_8 .fa-solid{color: #fff; background: none; font-size: .8rem; cursor: pointer;}
+#content .sec1 .sec1_8 span{font-size: 1.3rem;}
+
+
+
+#content .sec2{
+   width: 90%;
+   margin: 10px auto;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-auto-rows: auto;
+   grid-gap: 10px;
+   grid-template-areas:
+    'a b c d d'
+    'a e f d d'
+    ;
+}
+#content .sec2 img{width: 100%; object-fit: cover; display: block; transition: all 0.5s ease-out;}
+#content .sec2 .sec2_1{grid-area: a;}
+#content .sec2 .sec2_2{grid-area: b;}
+#content .sec2 .sec2_3{grid-area: c;}
+#content .sec2 .sec2_4{grid-area: d;}
+#content .sec2 .sec2_5{grid-area: e;}
+#content .sec2 .sec2_5{grid-area: f;}
+
+#content .sec2 .sec2_2{
+   margin-top: 40%; text-align: center; height: 100%;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.5rem; font-weight: 600;
+}
+#content .sec2 .sec2_2 .paging{
+   display: flex; align-items: center; justify-content: center;
+   border: 1px solid #ccc; background: #97979764; text-align: center; margin: 20px auto 0;
+   border-radius: 50px; width: 150px; gap: 10px;
+}
+#content .sec2 .sec2_2 .arrow{color: #fff; background: none; font-size: .8rem; cursor: pointer;}
+#content .sec2 .sec2_2 .fa-solid{color: #fff; background: none; font-size: .8rem; cursor: pointer;}
+#content .sec2 .sec2_2 span{font-size: 1.3rem;}
+#content .sec1 img,
+#content .sec2 img{filter: brightness(0.9);}
+#content .sec1 img:hover,
+#content .sec2 img:hover {
+  transform: scale(1.01);
+  filter: brightness(1.2);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+  transition: all 0.4s ease;
+}
+#content .sec1 li,
+#content .sec2 li {
+  position: relative;
+  overflow: hidden; 
+  border-radius: 2.5vw; 
+}
+
+#content .sec1 img:hover,
+#content .sec2 img:hover {
+  transform: scale(1.1); /* 이미지 확대 */
+}
+#content .sec1 .sec1_8 .fa-solid:hover,
+#content .sec2 .sec2_2 .fa-solid:hover{
+  color: #1E90FF;
+  background: rgba(30,144,255,0.1);
+  box-shadow: 
+    0 0 15px rgba(30,144,255,0.8),
+    0 0 30px rgba(30,144,255,0.6);}
+
+#content .sec3{
+   width: 100%; height: 400px; margin-top: 300px;
+   background: url(../images/sub2/f_last.png) no-repeat;
+   background-attachment: fixed; background-position: center bottom;
+   display: flex;            
+   justify-content: center; 
+   align-items: center;  
+}
+#content .sec3 p{
+   font-size: 1.2rem;
+   font-family: 'SpaceX', sans-serif; 
+   color: #fff; text-align: center;
+   line-height: 1.5; margin-top: 200px;
+   text-shadow: 
+    0 0 2px rgba(0,0,0,0.8),
+    0 0 8px rgba(0,0,0,0.6);
+   transition: all 0.5s ease;
+}
+#content .sec3 p:hover {
+  color: #000000;
+  text-shadow: 0 0 12px rgba(255,255,200,0.9), 0 0 24px rgba(255,200,0,0.7);
+  transition: all 0.5s ease;
+}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+	
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+	#content h3{font-size: 2.8rem;}
+   #content p{ width: 70%; font-size: 1.2rem;}
+
+   /* sec1 */
+   #content .sec1 .sec1_8{font-size: 1.3rem; font-weight: 600;}
+   #content .sec1 .sec1_8 .paging{width: 100px;margin: 20px auto 0;}
+   #content .sec1 .sec1_8 span{font-size: 1rem;}
+   /* sec1 */
+   #content .sec2 .sec2_2{font-size: 1.3rem; font-weight: 600;}
+   #content .sec2 .sec2_2 .paging{width: 100px; margin: 20px auto 0;}
+   #content .sec2 .sec2_2 span{font-size: 1rem;}
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content h3{font-size: 2.5rem; width: 90%;}
+   #content p{ width: 70%; font-size: 1.2rem;}
+
+   /* sec1 */
+	#content .sec1{
+   width: 90%;
+   margin: 10px auto;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-auto-rows: auto;
+   grid-gap: 10px;
+   grid-template-areas:
+    'a a b b'
+    'a a d e'
+    'g g h i'
+    ;
+   }
+   #content .sec1 .sec1_3,
+   #content .sec1 .sec1_6{display: none;}
+
+
+   /* sec2 */
+   #content .sec2{
+      width: 90%;
+      margin: 10px auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: auto;
+      grid-gap: 10px;
+      grid-template-areas:
+      'b c d d'
+      'e f d d'
+      ;
+   }
+   #content .sec2 .sec2_1{display: none;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	#content p{ width: 60%; font-size: 1rem;}
+/* sec1 */
+	#content .sec1{
+      width: 90%;
+      margin: 10px auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: auto;
+      grid-gap: 10px;
+      grid-template-areas:
+      'a a'
+      'a a'
+      'd e'
+      'h i'
+      ;
+   }
+
+   #content .sec1 .sec1_2,
+   #content .sec1 .sec1_7{display: none;}
+
+   #content .sec1 .sec1_8{font-size: 1.3rem; font-weight: 600;}
+   #content .sec1 .sec1_8 .paging{width: 100px; margin: 20px auto 0;}
+   #content .sec1 .sec1_8 span{font-size: 1rem;}
+
+
+
+/* sec2 */
+   #content .sec2{
+      width: 90%;
+      margin: 10px auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: auto;
+      grid-gap: 10px;
+      grid-template-areas:
+      'd d'
+      'd d'
+      'b c'
+      'e f'
+      ;
+   }
+   #content .sec2 .sec2_2{font-size: 1.3rem; font-weight: 600;}
+   #content .sec2 .sec2_2 .paging{width: 100px; margin: 20px auto 0;}
+   #content .sec2 .sec2_2 span{font-size: 1rem;}
+  
+}
+
+
+@media screen and (max-width:480px){
+   #content h2{font-size: 3rem;}
+
+}
